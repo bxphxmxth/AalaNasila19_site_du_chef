@@ -42,7 +42,11 @@ background-image: url("../../../public/images/main_bg.jpg");
 
 
         }
+
+        
     }
+
+
 }
 
 .white{
@@ -62,10 +66,129 @@ background-image: url("../../../public/images/main_bg.jpg");
             text-align: center;
             border: solid blue 3px;
             margin-top: 15%;
-            margin-left: 10%;
-            margin-right: 10%;
+            margin-left: 20%;
+            margin-right: 20%;
            
             
         }
 
+
+    .ourMenu{
+
+        border: green solid 3px;
+        
+
+         .titreOurMenu{
+            border: blue solid 3px;
+            position: relative;
+            width: 50%;
+            text-align: center;
+            font-family: courgette;
+            font-size: 300%;
+            margin-top: 2%;
+            margin-left: 25%;
+
+         
+        } .decoline2{
+                position: absolute;
+                height: 3%;
+                width: 45%;
+                text-align: center;
+                margin-top: 8%;
+                margin-left: 26%;
+                border: tomato solid 3px;
+
+
+            }
+
+            .troiscol{
+
+                border: blue solid 3px;
+                display: flex;
+
+
+                .blsd{
+                    border: red 3px solid;
+                    width: 20%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+
+                    .boitelogotxt{
+
+                        border-bottom: solid gray 3px;
+                        width: 100%;
+                       padding: 10%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                         align-items: center;
+
+
+                    
+
+                        .logosize{
+                            font-size: 50px;
+                            color: gray;
+                        }
+
+                        .logosize:hover{
+                            font-size: 50px;
+                            color: red;
+                        }
+
+                        .courgette{
+                            font-family: courgette;
+                            font-size: 30px;
+
+                        }
+                      
+                    }
+                   
+                }
+
+                .firstcol{
+                    border: solid blue 3px;
+                    width: 35%;
+
+                    .imgh4pprix{
+                        border-bottom: gray 1px solid;
+                        display: flex;
+                        justify-content: space-between;
+                        margin-top: 10%;
+
+                        .logoradius{
+                            border: rgba(196, 196, 230, 0.616) solid 5px;
+                            border-radius: 50%;
+                            width: 25%;
+                            height: 25%;
+
+                          
+                        }  
+                        
+                            .h4p{
+                                border: green solid 3px;
+                                width: max-content;
+
+                                h4{
+                                    font-size: 15px;
+                                }
+                            }
+
+
+                        .prix{
+                            color: red;
+                            background-color:rgb(206, 194, 194) ;
+                            height: max-content;
+                            width: 20%;
+                            text-align: center;
+                            margin-top: 10%;
+                        }
+                    }
+                }
+            }
+
 }
+    }    
+    

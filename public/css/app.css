@@ -16211,8 +16211,94 @@ span {
   text-align: center;
   border: solid blue 3px;
   margin-top: 15%;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.white .ourMenu {
+  border: green solid 3px;
+}
+.white .ourMenu .titreOurMenu {
+  border: blue solid 3px;
+  position: relative;
+  width: 50%;
+  text-align: center;
+  font-family: courgette;
+  font-size: 300%;
+  margin-top: 2%;
+  margin-left: 25%;
+}
+.white .ourMenu .decoline2 {
+  position: absolute;
+  height: 3%;
+  width: 45%;
+  text-align: center;
+  margin-top: 8%;
+  margin-left: 26%;
+  border: tomato solid 3px;
+}
+.white .ourMenu .troiscol {
+  border: blue solid 3px;
+  display: flex;
+}
+.white .ourMenu .troiscol .blsd {
+  border: red 3px solid;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.white .ourMenu .troiscol .blsd .boitelogotxt {
+  border-bottom: solid gray 3px;
+  width: 100%;
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.white .ourMenu .troiscol .blsd .boitelogotxt .logosize {
+  font-size: 50px;
+  color: gray;
+}
+.white .ourMenu .troiscol .blsd .boitelogotxt .logosize:hover {
+  font-size: 50px;
+  color: red;
+}
+.white .ourMenu .troiscol .blsd .boitelogotxt .courgette {
+  font-family: courgette;
+  font-size: 30px;
+}
+.white .ourMenu .troiscol .firstcol {
+  border: solid blue 3px;
+  width: 35%;
+}
+.white .ourMenu .troiscol .firstcol .imgh4pprix {
+  border-bottom: gray 1px solid;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10%;
+}
+.white .ourMenu .troiscol .firstcol .imgh4pprix .logoradius {
+  border: rgba(196, 196, 230, 0.616) solid 5px;
+  border-radius: 50%;
+  width: 25%;
+  height: 25%;
+}
+.white .ourMenu .troiscol .firstcol .imgh4pprix .h4p {
+  border: green solid 3px;
+  width: max-content;
+}
+.white .ourMenu .troiscol .firstcol .imgh4pprix .h4p h4 {
+  font-size: 15px;
+}
+.white .ourMenu .troiscol .firstcol .imgh4pprix .prix {
+  color: red;
+  background-color: #cec2c2;
+  height: max-content;
+  width: 20%;
+  text-align: center;
+  margin-top: 10%;
 }
 
 /*# sourceMappingURL=app.css.map */
