@@ -16135,7 +16135,7 @@ body {
   justify-content: center;
 }
 .whateverandbutt .btn {
-  border-radius: 40%;
+  border-radius: 15px;
 }
 
 .whatever {
@@ -16198,6 +16198,18 @@ span {
   font-family: courgette;
   font-size: 350%;
   margin-top: 2%;
+}
+.container2 .bottom2red {
+  border: grey solid 3px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.container2 .bottom2red .logolineee {
+  border: red solid 3px;
+  width: 40%;
+  height: 200%;
+  margin-top: 5%;
 }
 
 .white {
@@ -16293,6 +16305,38 @@ span {
   font-size: 15px;
 }
 .white .ourMenu .troiscol .firstcol .imgh4pprix .prix {
+  color: red;
+  background-color: #cec2c2;
+  height: max-content;
+  width: 20%;
+  text-align: center;
+  margin-top: 10%;
+}
+.white .ourMenu .secondcol {
+  border: solid purple 3px;
+  width: 35%;
+  margin-left: 3%;
+}
+.white .ourMenu .secondcol .imgh4pprix {
+  border-bottom: gray 1px solid;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10%;
+}
+.white .ourMenu .secondcol .imgh4pprix .logoradius {
+  border: rgba(196, 196, 230, 0.616) solid 5px;
+  border-radius: 50%;
+  width: 25%;
+  height: 25%;
+}
+.white .ourMenu .secondcol .imgh4pprix .h4p {
+  border: green solid 3px;
+  width: max-content;
+}
+.white .ourMenu .secondcol .imgh4pprix .h4p h4 {
+  font-size: 15px;
+}
+.white .ourMenu .secondcol .imgh4pprix .prix {
   color: red;
   background-color: #cec2c2;
   height: max-content;

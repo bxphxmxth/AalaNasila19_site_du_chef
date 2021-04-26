@@ -37,15 +37,25 @@ background-image: url("../../../public/images/main_bg.jpg");
             font-family: courgette;
             font-size: 350%;
             margin-top: 2%;
-
-            
-
-
         }
+
+       
 
         
     }
+     .bottom2red{
+            border: grey solid 3px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
 
+            .logolineee{
+                border: red solid 3px;
+                width: 40%;
+                height: 200%;
+                margin-top: 5%;
+            }
+        }
 
 }
 
@@ -188,6 +198,50 @@ background-image: url("../../../public/images/main_bg.jpg");
                     }
                 }
             }
+
+                .secondcol{
+
+                    border: solid purple 3px;
+                    width: 35%;
+                    margin-left: 3%;
+
+                    .imgh4pprix{
+                        border-bottom: gray 1px solid;
+                        display: flex;
+                        justify-content: space-between;
+                        margin-top: 10%;
+
+                        .logoradius{
+                            border: rgba(196, 196, 230, 0.616) solid 5px;
+                            border-radius: 50%;
+                            width: 25%;
+                            height: 25%;
+
+                          
+                        }  
+                        
+                            .h4p{
+                                border: green solid 3px;
+                                width: max-content;
+
+                                h4{
+                                    font-size: 15px;
+                                }
+                            }
+
+
+                        .prix{
+                            color: red;
+                            background-color:rgb(206, 194, 194) ;
+                            height: max-content;
+                            width: 20%;
+                            text-align: center;
+                            margin-top: 10%;
+                        }
+                    }
+
+
+                }
 
 }
     }    
