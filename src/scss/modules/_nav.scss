@@ -120,6 +120,14 @@ align-items: center;
 justify-content: center;
 
 
+
+// .bottomdeco{
+//     background-image: url("../../../public/images/bottom_decoration_img.png");
+//     background-color: black;
+//     border: red 3px solid;
+
+// }   
+
 .btn{
 
         border-radius: 40%;
@@ -142,13 +150,14 @@ justify-content: center;
         border-radius: 50%;
     }
 
-    
-    
+ 
 }
 
 span{
     color: red;
 }
+
+
 
 @media (min-width : 320px) {
 

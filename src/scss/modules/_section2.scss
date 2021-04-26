@@ -1,0 +1,52 @@
+.bg-ourstory{
+
+background-image: url("../../../public/images/main_bg.jpg");
+
+}
+
+.container2{
+    margin-left: 2%;
+    margin-right: 2%;
+    
+    .bg-box-left-top{
+        display: flex;
+        border: red 3px solid;
+        width: 100%;
+        justify-content: space-between;
+
+        .decoline{
+            position: absolute;
+            background-color: red;
+            height: 50%;
+        }
+
+        .titreOurStory{
+            position: relative;
+            border: green solid 3px;
+            width: 50%;
+            text-align: center;
+            font-family: courgette;
+            font-size: 350%;
+            margin-top: 2%;
+
+            
+
+
+        }
+    }
+}
+
+.white{
+    padding-top: 3%;
+    position: relative;
+
+    
+    
+    .bg-box-left-top{
+        position: absolute;
+        
+    }
+    
+
+    
+}
