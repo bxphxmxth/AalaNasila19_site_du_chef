@@ -16173,17 +16173,22 @@ span {
 .container2 {
   margin-left: 2%;
   margin-right: 2%;
+  height: 100vh;
 }
 .container2 .bg-box-left-top {
   display: flex;
   border: red 3px solid;
   width: 100%;
   justify-content: space-between;
+  align-items: center;
 }
 .container2 .bg-box-left-top .decoline {
   position: absolute;
-  background-color: red;
-  height: 50%;
+  height: 15%;
+  width: 45%;
+  text-align: center;
+  margin-top: 7%;
+  margin-left: 26%;
 }
 .container2 .bg-box-left-top .titreOurStory {
   position: relative;
@@ -16201,6 +16206,13 @@ span {
 }
 .white .bg-box-left-top {
   position: absolute;
+}
+.white .txt_ourstory {
+  text-align: center;
+  border: solid blue 3px;
+  margin-top: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 /*# sourceMappingURL=app.css.map */
