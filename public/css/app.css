@@ -16052,16 +16052,15 @@ body {
 
 .bg-nav {
   background-image: url("../../../public/images/banner1.jpg");
-  border: red 3px solid;
-  height: 100vh;
   background-position: center;
   background-size: cover;
+  border: red 3px solid;
+  height: 100vh;
 }
 
 .navs {
   display: flex;
   justify-content: space-between;
-  border: green solid 3px;
   align-items: center;
   margin-top: 5%;
 }
@@ -16091,13 +16090,12 @@ body {
 }
 .nav1 .team:hover {
   background-color: red;
-  width: 60px;
+  width: 15%;
   height: 30px;
 }
 
 .tastelogo {
   width: max-content;
-  border: red solid 3px;
 }
 
 .nav2 {
@@ -16107,6 +16105,66 @@ body {
   border-bottom: white 2px solid;
   width: 45%;
   text-align: center;
+}
+.nav2 .reservation:hover {
+  background-color: red;
+  width: 25%;
+  height: 30px;
+}
+.nav2 .blog:hover {
+  background-color: red;
+  width: 10%;
+  height: 30px;
+}
+.nav2 .testimonials:hover {
+  background-color: red;
+  width: 22%;
+  height: 30px;
+}
+.nav2 .contactus:hover {
+  background-color: red;
+  width: 20%;
+  height: 30px;
+}
+
+.whateverandbutt {
+  border: blue solid 3px;
+  height: 200%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.whateverandbutt .btn {
+  border-radius: 40%;
+}
+
+.whatever {
+  color: white;
+  font-size: 55px;
+  font-family: courgette;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10%;
+}
+.whatever .buttonpurhchase {
+  background-color: red;
+  border-radius: 50%;
+}
+
+span {
+  color: red;
+}
+
+@media (min-width: 320px) {
+  .navs {
+    border: green solid 3px;
+  }
+}
+@media (max-width: 1240px) {
+  .navs {
+    align-items: center;
+    margin-top: 5%;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */

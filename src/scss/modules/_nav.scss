@@ -5,12 +5,14 @@ body{
 .bg-nav{
     
     background-image: url("../../../public/images/banner1.jpg");
-    border: red 3px solid;
-    height: 100vh;
     background-position: center;
     background-size: cover;
     // opacity: 0.5;  
-      
+     border: red 3px solid;
+    height: 100vh; 
+    
+
+
 
     
 }
@@ -18,7 +20,7 @@ body{
 .navs{
     display: flex;
     justify-content: space-between;
-    border: green solid 3px;
+    // border: green solid 3px;
     align-items: center;
     margin-top: 5%;
 
@@ -56,7 +58,7 @@ body{
     }
     .team:hover{
         background-color: red;
-        width: 60px;
+        width: 15%;
         height: 30px
 
     }
@@ -67,7 +69,6 @@ body{
 .tastelogo{
     
     width: max-content;
-    border: red solid 3px;
 }
 
 
@@ -80,6 +81,94 @@ body{
     width: 45%;
     text-align: center;
 
+
+
+    .reservation:hover{
+        background-color: red;
+        width: 25%;
+        height: 30px
+
+    }
+
+    .blog:hover{
+        background-color: red;
+        width: 10%;
+        height: 30px
+
+    }
+    .testimonials:hover{
+        background-color: red;
+        width: 22%;
+        height: 30px
+
+    }
+    .contactus:hover{
+        background-color: red;
+        width: 20%;
+        height: 30px
+
+    }
+
+}
+
+.whateverandbutt{
+
+border: blue solid 3px;
+height: 200%;
+text-align: center;
+align-items: center;
+justify-content: center;
+
+
+.btn{
+
+        border-radius: 40%;
+        
+    }
+
+}
+
+.whatever{
+    
+    color: white;
+    font-size: 55px;
+    font-family: courgette;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+
+    .buttonpurhchase{
+        background-color: red;
+        border-radius: 50%;
+    }
+
+    
+    
+}
+
+span{
+    color: red;
+}
+
+@media (min-width : 320px) {
+
+.navs{
+    border: green solid 3px;
+
+
+}
+
+}
+
+@media (max-width : 1240px){
+
+    .navs{
+        align-items: center;
+        margin-top: 5%;
+    }
+
+    .whatever{
+    }
 
 
 }
