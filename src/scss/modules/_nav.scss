@@ -1,0 +1,85 @@
+body{
+    // font-family: courgette;
+    font-family: Open Sans;
+}
+.bg-nav{
+    
+    background-image: url("../../../public/images/banner1.jpg");
+    border: red 3px solid;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    // opacity: 0.5;  
+      
+
+    
+}
+
+.navs{
+    display: flex;
+    justify-content: space-between;
+    border: green solid 3px;
+    align-items: center;
+    margin-top: 5%;
+
+    
+
+}
+
+.nav1{
+    display: flex;
+    justify-content: space-around;
+    border-top: white solid 2px;
+    border-bottom: white 2px solid;
+    width: 40%;
+    text-align: center;
+   
+
+    .home:hover{
+        background-color: red;
+        width: 15%;
+        height: 30px
+
+    }
+
+    .aboutus:hover{
+        background-color: red;
+        width: 20%;
+        height: 30px
+
+    }
+    .menulist:hover{
+        background-color: red;
+        width: 20%;
+        height: 30px
+
+    }
+    .team:hover{
+        background-color: red;
+        width: 60px;
+        height: 30px
+
+    }
+
+
+}
+
+.tastelogo{
+    
+    width: max-content;
+    border: red solid 3px;
+}
+
+
+
+.nav2{
+    display: flex;
+    justify-content: space-around;
+    border-top: white solid 2px;
+    border-bottom: white 2px solid;
+    width: 45%;
+    text-align: center;
+
+
+
+}
