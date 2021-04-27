@@ -16631,5 +16631,26 @@ span {
   display: flex;
   justify-content: space-between;
 }
+.section7 .bg-tags .troiscol .aboutus .firsttags .tags {
+  border: white solid 1px;
+  border-radius: 15px;
+}
+.section7 .bg-tags .fourfoodbox {
+  border: white solid 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.section7 .bg-tags .fourfoodbox .fourfood {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.redf {
+  background-color: #DA4E4E;
+  height: 90px;
+}
 
 /*# sourceMappingURL=app.css.map */

@@ -35,10 +35,38 @@
                 justify-content: space-between;
                 
             }
+
+            .firsttags{
+
+                .tags{
+                    border: white solid 1px;
+                    border-radius: 15px;
+                }
+            }
+
+
         }
     }    
-        
+        .fourfoodbox{
+            border: white solid 3px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+            .fourfood{
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+
+            }
+        }
     }
+}
+
+.redf{
+    background-color: #DA4E4E;
+    height: 90px;
 }
 
 // .decobottom{
