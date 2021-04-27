@@ -26,6 +26,10 @@
                 margin-top: 12%;
      
             }
+
+           
+
+          
         }
 
     .bgandform{
@@ -61,16 +65,83 @@
             margin-top: 12%;
             margin-left: 32%;
 
+
+            .booknow{
+                position: absolute;
+                margin-top: 2%;
+                margin-left: 14%;
+                border-radius: 20px;
+                font-size: 15px;
+            }
             
 
             .form-row{
                 border: rgb(189, 28, 140) 3px solid;
                 width: 100%;
 
+                .norm_drop{
+                    display: flex;
+                    justify-content: space-between;
+                    border: blue solid 3px;
+                    width: 100%;
+                    
+                }
                
             }
         }
+
+       
     }    
-        
+        .Ourblog{
+
+            border: blue solid 3px;
+            height: 100vh;
+            width: 100%;
+
+            .ourblogtitle{
+                font-size: 50px;
+                font-family: courgette;
+                text-align: center;
+                margin-top: 5%;
+                margin-bottom: 0;
+                padding: 0px;
+            }
+
+            .decor2{
+                position: absolute;
+                margin-left: 26.5%;
+               
+
+            }
+
+
+        } 
     }
+
+
+
+
+    .img2redpp{
+        border: rgb(190, 25, 163) solid 3px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 5%;
+        margin-top: 8%;
+
+        .img_red_pp{
+
+
+
+            .imgfeta{
+
+                border: rgb(228, 228, 248) solid 5px;
+                border-radius: 20px;
+
+            
+            }
+        }
+
+
+
+    }  
 }

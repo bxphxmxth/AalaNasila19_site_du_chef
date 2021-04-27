@@ -16435,9 +16435,50 @@ span {
   margin-top: 12%;
   margin-left: 32%;
 }
+.section4 .container .bgandform .twoinputs .booknow {
+  position: absolute;
+  margin-top: 2%;
+  margin-left: 14%;
+  border-radius: 20px;
+  font-size: 15px;
+}
 .section4 .container .bgandform .twoinputs .form-row {
   border: #bd1c8c 3px solid;
   width: 100%;
+}
+.section4 .container .bgandform .twoinputs .form-row .norm_drop {
+  display: flex;
+  justify-content: space-between;
+  border: blue solid 3px;
+  width: 100%;
+}
+.section4 .container .Ourblog {
+  border: blue solid 3px;
+  height: 100vh;
+  width: 100%;
+}
+.section4 .container .Ourblog .ourblogtitle {
+  font-size: 50px;
+  font-family: courgette;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 0;
+  padding: 0px;
+}
+.section4 .container .Ourblog .decor2 {
+  position: absolute;
+  margin-left: 26.5%;
+}
+.section4 .img2redpp {
+  border: #be19a3 solid 3px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5%;
+  margin-top: 8%;
+}
+.section4 .img2redpp .img_red_pp .imgfeta {
+  border: #e4e4f8 solid 5px;
+  border-radius: 20px;
 }
 
 /*# sourceMappingURL=app.css.map */
