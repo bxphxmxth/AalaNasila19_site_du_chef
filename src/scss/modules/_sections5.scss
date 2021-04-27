@@ -25,6 +25,29 @@
     }   .logosection5{
              position: absolute;
              margin-left: 30%;
+      
+      
             }
+
+    .meuftexttextmeuf{
+        border: blue solid 3px;
+        display: flex;
+        justify-content: space-around;
+
+        .meuf{
+            border: 5px solid rgb(193, 193, 243);
+            border-radius: 200px;
+            width: 10%;
+            height: 5%;
+            margin-top: 1.5%;
+        }
+
+        .txttestimo{
+            border: rgba(255, 255, 255, 0.568) 1px solid;
+            color: white;
+            border-radius: 5px;
+            width: 35%;
+        }
+    }        
 
 }
