@@ -126,10 +126,12 @@
         display: flex;
         justify-content: space-between;
         margin-left: 5%;
-        margin-top: 8%;
+        
+        
 
         .img_red_pp{
 
+            border: blue solid 3px;
 
 
             .imgfeta{
@@ -139,9 +141,55 @@
 
             
             }
+
+            .red{
+                background-color: rgb(218, 78, 78);
+                color: white;
+                position: absolute;
+                height: 5%;
+                width: 30%;
+                text-align: center;
+                border-radius: 10px;
+                margin-left: 4%;
+                margin-top: 20%;
+
+                .pmt{
+                    margin-top: 2%;
+                    border: blue solid 3px;
+                }
+            }
+
+            .pp2{
+                border: rgb(182, 106, 163) solid 3px;
+                margin-top: 3%;
+                width: 90%;
+                margin-left: 5%;
+
+            }
+
+            .pp22{
+                border: rgb(182, 106, 163) solid 3px;
+                margin-top: 3%;
+                width: 90%;
+
+            }
         }
 
 
 
     }  
+
+    .knowmore{
+        margin-left: 47%;
+        margin-top: 5%;
+        border-radius: 20px;
+    }
+
+    .twogreybottom{
+        display: flex;
+        justify-content: space-between;
+        width: 89%;
+        margin-left: 5.5%;
+
+    }
 }

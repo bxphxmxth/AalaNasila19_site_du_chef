@@ -16474,11 +16474,72 @@ span {
   display: flex;
   justify-content: space-between;
   margin-left: 5%;
-  margin-top: 8%;
+}
+.section4 .img2redpp .img_red_pp {
+  border: blue solid 3px;
 }
 .section4 .img2redpp .img_red_pp .imgfeta {
   border: #e4e4f8 solid 5px;
   border-radius: 20px;
+}
+.section4 .img2redpp .img_red_pp .red {
+  background-color: #da4e4e;
+  color: white;
+  position: absolute;
+  height: 5%;
+  width: 30%;
+  text-align: center;
+  border-radius: 10px;
+  margin-left: 4%;
+  margin-top: 20%;
+}
+.section4 .img2redpp .img_red_pp .red .pmt {
+  margin-top: 2%;
+  border: blue solid 3px;
+}
+.section4 .img2redpp .img_red_pp .pp2 {
+  border: #b66aa3 solid 3px;
+  margin-top: 3%;
+  width: 90%;
+  margin-left: 5%;
+}
+.section4 .img2redpp .img_red_pp .pp22 {
+  border: #b66aa3 solid 3px;
+  margin-top: 3%;
+  width: 90%;
+}
+.section4 .knowmore {
+  margin-left: 47%;
+  margin-top: 5%;
+  border-radius: 20px;
+}
+.section4 .twogreybottom {
+  display: flex;
+  justify-content: space-between;
+  width: 89%;
+  margin-left: 5.5%;
+}
+
+.section5 {
+  background-image: url("../../../public/images/testimonials_background.jpg");
+  height: 400px;
+  margin-top: 51%;
+  background-repeat: no-repeat;
+}
+.section5 .testandlogo {
+  border: transparent solid 3px;
+  color: white;
+  font-family: courgette;
+  font-size: 50px;
+  text-align: center;
+}
+.section5 .testandlogo .meetourtxt {
+  margin-top: 5%;
+  margin-bottom: 0;
+}
+.section5 .logosection5 {
+  position: absolute;
+  margin-left: 30%;
 }
 
 /*# sourceMappingURL=app.css.map */
