@@ -8,7 +8,6 @@ body{
     background-position: center;
     background-size: cover;
     // opacity: 0.5;  
-     border: red 3px solid;
     height: 100vh; 
     // background-color:rgba(82, 73, 73, 0.7)
     
@@ -25,6 +24,10 @@ body{
     justify-content: space-between;
     // border: green solid 3px;
     align-items: center;
+    background-color: rgba(0, 0, 0, 0.39);
+    color: white;
+    margin: 0;
+    padding: 0;
     
     
 
@@ -164,7 +167,6 @@ span{
 @media (min-width : 320px) {
 
 .navs{
-    border: green solid 3px;
 
 
 }
