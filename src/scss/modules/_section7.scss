@@ -1,0 +1,50 @@
+.section7{
+    background-color: white;
+    margin-top: 5%;
+
+    .bg-tags{
+        background-image: url("../../../public/images/footer_background.jpg");
+        height: 350px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+
+    .troiscol{
+        border: blue solid 3px;
+        display: flex;
+        justify-content: space-around;
+
+
+
+        .aboutus{
+            color: white;
+            width: 30%;
+            border: red solid 3px;
+            margin-top: 6%;
+
+
+            .h3aboutus{
+                font-weight: bold;
+            }
+
+            .logosabout{
+                width: 50%;
+                font-size: 25px;
+                display: flex;
+                justify-content: space-between;
+                
+            }
+        }
+    }    
+        
+    }
+}
+
+// .decobottom{
+//     z-index: 1;
+//     background-color: black;
+//       transform: rotate(180deg);
+//       position: absolute;
+
+// }

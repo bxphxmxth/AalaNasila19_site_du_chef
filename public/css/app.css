@@ -16572,4 +16572,64 @@ span {
   margin-left: 34%;
 }
 
+.redsquare {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #DA4E4E;
+  width: 35%;
+  height: 40%;
+  margin-left: 34%;
+  margin-top: 5%;
+  padding: 5%;
+  border-radius: 15px;
+  color: white;
+  font-weight: bold;
+}
+.redsquare .position {
+  border-bottom: white solid 1px;
+}
+.redsquare .tel {
+  border-bottom: white solid 1px;
+  margin-top: 5%;
+}
+.redsquare .mail {
+  margin-top: 5%;
+}
+.redsquare .logosize {
+  font-size: 35px;
+}
+
+.section7 {
+  background-color: white;
+  margin-top: 5%;
+}
+.section7 .bg-tags {
+  background-image: url("../../../public/images/footer_background.jpg");
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.section7 .bg-tags .troiscol {
+  border: blue solid 3px;
+  display: flex;
+  justify-content: space-around;
+}
+.section7 .bg-tags .troiscol .aboutus {
+  color: white;
+  width: 30%;
+  border: red solid 3px;
+  margin-top: 6%;
+}
+.section7 .bg-tags .troiscol .aboutus .h3aboutus {
+  font-weight: bold;
+}
+.section7 .bg-tags .troiscol .aboutus .logosabout {
+  width: 50%;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
 /*# sourceMappingURL=app.css.map */
