@@ -16050,13 +16050,6 @@ body {
   font-family: Open Sans;
 }
 
-.bg-nav {
-  background-image: url("../../../public/images/banner1.jpg");
-  background-position: center;
-  background-size: cover;
-  height: 100vh;
-}
-
 .navs {
   display: flex;
   position: fixed;
@@ -16132,11 +16125,11 @@ body {
 }
 
 .whateverandbutt {
-  border: blue solid 3px;
   height: 200%;
   text-align: center;
   align-items: center;
   justify-content: center;
+  margin-bottom: 13%;
 }
 .whateverandbutt .btn {
   border-radius: 15px;
@@ -16159,12 +16152,6 @@ span {
   color: red;
 }
 
-@media (max-width: 1240px) {
-  .navs {
-    align-items: center;
-    margin-top: 5%;
-  }
-}
 .bg-ourstory {
   background-image: url("../../../public/images/main_bg.jpg");
 }
@@ -16183,7 +16170,7 @@ span {
 }
 .container2 .bg-box-left-top .decoline {
   position: absolute;
-  height: 15%;
+  height: 3%;
   width: 45%;
   text-align: center;
   margin-top: 7%;
@@ -16215,12 +16202,9 @@ span {
   padding-top: 3%;
   position: relative;
 }
-.white .bg-box-left-top {
-  position: absolute;
-}
 .white .txt_ourstory {
   text-align: center;
-  border: solid blue 3px;
+  border: solid pink 3px;
   margin-top: 15%;
   margin-left: 20%;
   margin-right: 20%;
@@ -16344,6 +16328,11 @@ span {
   margin-top: 10%;
 }
 
+@media (min-width: 320px) and (max-width: 759px) {
+  .txt_ourstory {
+    font-size: 5px;
+  }
+}
 .section3 {
   background-color: black;
   height: 700px;
@@ -16356,6 +16345,7 @@ span {
   display: flex;
   flex-direction: column;
   padding: 5%;
+  margin-top: 68%;
 }
 .section3 .meetourtxt {
   border: red 3px solid;

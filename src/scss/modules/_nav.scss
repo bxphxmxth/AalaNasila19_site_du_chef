@@ -109,12 +109,13 @@ body{
 
 .whateverandbutt{
 
-border: blue solid 3px;
-height: 200%;
-text-align: center;
-align-items: center;
-justify-content: center;
-margin-bottom: 500px;
+// border: blue solid 3px;
+    height: 200%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 13%;
+
 
 
 // .bottomdeco{
@@ -155,24 +156,25 @@ span{
 
 
 
-@media (min-width : 320px) {
-
-.navs{
+// @media (min-width : 320px) and (max-width: 759px){
 
 
-}
-
-}
-
-@media (max-width : 1240px){
-
-    .navs{
-        align-items: center;
-        margin-top: 5%;
-    }
-
-    .whatever{
-    }
+// }
 
 
-}
+
+// @media (min-width : 760px) and (max-width : 1240px){
+
+//     .navs{
+//         align-items: center;
+//         margin-top: 5%;
+//     }
+
+//     .whatever{
+
+//     }
+
+
+
+
+// }

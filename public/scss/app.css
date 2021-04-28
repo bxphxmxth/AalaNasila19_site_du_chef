@@ -16153,37 +16153,26 @@ span {
   color: red;
 }
 
-@media (max-width: 1240px) {
-  .navs {
-    align-items: center;
-    margin-top: 5%;
-  }
-}
 .bg-ourstory {
   background-image: url("../../../public/images/main_bg.jpg");
 }
-
-.container2 {
+.bg-ourstory .white {
+  padding-top: 3%;
+  position: relative;
+}
+.bg-ourstory .container2 {
   margin-left: 2%;
   margin-right: 2%;
   height: 100vh;
 }
-.container2 .bg-box-left-top {
+.bg-ourstory .container2 .ourStorybox .bg-box-left-top {
   display: flex;
   border: red 3px solid;
   width: 100%;
   justify-content: space-between;
   align-items: center;
 }
-.container2 .bg-box-left-top .decoline {
-  position: absolute;
-  height: 15%;
-  width: 45%;
-  text-align: center;
-  margin-top: 7%;
-  margin-left: 26%;
-}
-.container2 .bg-box-left-top .titreOurStory {
+.bg-ourstory .container2 .ourStorybox .bg-box-left-top .titreOurStory {
   position: relative;
   border: green solid 3px;
   width: 50%;
@@ -16192,37 +16181,31 @@ span {
   font-size: 350%;
   margin-top: 2%;
 }
-.container2 .bottom2red {
-  border: grey solid 3px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-.container2 .bottom2red .logolineee {
-  border: red solid 3px;
-  width: 40%;
-  height: 200%;
-  margin-top: 5%;
-}
-
-.white {
-  padding-top: 3%;
-  position: relative;
-}
-.white .bg-box-left-top {
+.bg-ourstory .container2 .ourStorybox .bg-box-left-top .decoline {
   position: absolute;
-}
-.white .txt_ourstory {
+  height: 15%;
+  width: 45%;
   text-align: center;
-  border: solid blue 3px;
+  margin-top: 7%;
+  margin-left: 26%;
+}
+.bg-ourstory .container2 .txt_ourstory {
+  text-align: center;
+  background-color: red;
   margin-top: 15%;
   margin-left: 20%;
   margin-right: 20%;
 }
-.white .ourMenu {
-  border: green solid 3px;
+.bg-ourstory .container2 .ourMenu .decoline2 {
+  position: absolute;
+  height: 3%;
+  width: 45%;
+  text-align: center;
+  margin-top: 8%;
+  margin-left: 26%;
+  border: tomato solid 3px;
 }
-.white .ourMenu .titreOurMenu {
+.bg-ourstory .container2 .ourMenu .titreOurMenu {
   border: blue solid 3px;
   position: relative;
   width: 50%;
@@ -16232,20 +16215,11 @@ span {
   margin-top: 2%;
   margin-left: 25%;
 }
-.white .ourMenu .decoline2 {
-  position: absolute;
-  height: 3%;
-  width: 45%;
-  text-align: center;
-  margin-top: 8%;
-  margin-left: 26%;
-  border: tomato solid 3px;
-}
-.white .ourMenu .troiscol {
+.bg-ourstory .container2 .ourMenu .troiscol {
   border: blue solid 3px;
   display: flex;
 }
-.white .ourMenu .troiscol .blsd {
+.bg-ourstory .container2 .ourMenu .troiscol .blsd {
   border: red 3px solid;
   width: 20%;
   display: flex;
@@ -16253,7 +16227,7 @@ span {
   justify-content: center;
   align-items: center;
 }
-.white .ourMenu .troiscol .blsd .boitelogotxt {
+.bg-ourstory .container2 .ourMenu .troiscol .blsd .boitelogotxt {
   border-bottom: solid gray 3px;
   width: 100%;
   padding: 10%;
@@ -16262,42 +16236,30 @@ span {
   justify-content: center;
   align-items: center;
 }
-.white .ourMenu .troiscol .blsd .boitelogotxt .logosize {
-  font-size: 50px;
-  color: gray;
-}
-.white .ourMenu .troiscol .blsd .boitelogotxt .logosize:hover {
-  font-size: 50px;
-  color: red;
-}
-.white .ourMenu .troiscol .blsd .boitelogotxt .courgette {
-  font-family: courgette;
-  font-size: 30px;
-}
-.white .ourMenu .troiscol .firstcol {
+.bg-ourstory .container2 .ourMenu .troiscol .firstcol {
   border: solid blue 3px;
   width: 35%;
 }
-.white .ourMenu .troiscol .firstcol .imgh4pprix {
+.bg-ourstory .container2 .ourMenu .troiscol .firstcol .imgh4pprix {
   border-bottom: gray 1px solid;
   display: flex;
   justify-content: space-between;
   margin-top: 10%;
 }
-.white .ourMenu .troiscol .firstcol .imgh4pprix .logoradius {
+.bg-ourstory .container2 .ourMenu .troiscol .firstcol .imgh4pprix .logoradius {
   border: rgba(196, 196, 230, 0.616) solid 5px;
   border-radius: 50%;
   width: 25%;
   height: 25%;
 }
-.white .ourMenu .troiscol .firstcol .imgh4pprix .h4p {
+.bg-ourstory .container2 .ourMenu .troiscol .firstcol .imgh4pprix .h4p {
   border: green solid 3px;
   width: max-content;
 }
-.white .ourMenu .troiscol .firstcol .imgh4pprix .h4p h4 {
+.bg-ourstory .container2 .ourMenu .troiscol .firstcol .imgh4pprix .h4p h4 {
   font-size: 15px;
 }
-.white .ourMenu .troiscol .firstcol .imgh4pprix .prix {
+.bg-ourstory .container2 .ourMenu .troiscol .firstcol .imgh4pprix .prix {
   color: red;
   background-color: #cec2c2;
   height: max-content;
@@ -16305,37 +16267,49 @@ span {
   text-align: center;
   margin-top: 10%;
 }
-.white .ourMenu .secondcol {
+.bg-ourstory .container2 .ourMenu .troiscol .secondcol {
   border: solid purple 3px;
   width: 35%;
   margin-left: 3%;
 }
-.white .ourMenu .secondcol .imgh4pprix {
+.bg-ourstory .container2 .ourMenu .troiscol .secondcol .imgh4pprix {
   border-bottom: gray 1px solid;
   display: flex;
   justify-content: space-between;
   margin-top: 10%;
 }
-.white .ourMenu .secondcol .imgh4pprix .logoradius {
+.bg-ourstory .container2 .ourMenu .troiscol .secondcol .imgh4pprix .logoradius {
   border: rgba(196, 196, 230, 0.616) solid 5px;
   border-radius: 50%;
   width: 25%;
   height: 25%;
 }
-.white .ourMenu .secondcol .imgh4pprix .h4p {
+.bg-ourstory .container2 .ourMenu .troiscol .secondcol .imgh4pprix .h4p {
   border: green solid 3px;
   width: max-content;
 }
-.white .ourMenu .secondcol .imgh4pprix .h4p h4 {
+.bg-ourstory .container2 .ourMenu .troiscol .secondcol .imgh4pprix .h4p h4 {
   font-size: 15px;
 }
-.white .ourMenu .secondcol .imgh4pprix .prix {
+.bg-ourstory .container2 .ourMenu .troiscol .secondcol .imgh4pprix .prix {
   color: red;
   background-color: #cec2c2;
   height: max-content;
   width: 20%;
   text-align: center;
   margin-top: 10%;
+}
+.bg-ourstory .container2 .ourMenu .bottom2red {
+  border: grey solid 3px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.bg-ourstory .container2 .ourMenu .bottom2red .logolineee {
+  border: red solid 3px;
+  width: 40%;
+  height: 200%;
+  margin-top: 5%;
 }
 
 .section3 {
