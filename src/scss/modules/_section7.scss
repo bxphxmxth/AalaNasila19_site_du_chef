@@ -19,7 +19,7 @@
 
         .aboutus{
             color: white;
-            width: 30%;
+            // width: 30%;
             border: red solid 3px;
             margin-top: 6%;
 
@@ -76,3 +76,62 @@
 //       position: absolute;
 
 // }
+
+
+@media (min-width : 320px) and (max-width : 991px){
+
+.section7{
+
+
+    
+
+    .bg-tags{
+
+        border: pink solid 3px;
+        height: 950px;
+        
+        .troiscol{
+            width: 300%;
+            flex-direction: column;
+            text-align: center;
+
+                .aboutus{
+                    width: 30%;
+
+                    .h3aboutus{
+
+                    }
+                }
+
+                .logosabout{
+                    text-align: center;
+                    margin-left: 25%;
+                }
+        }
+
+
+
+    }
+
+
+
+}
+
+
+
+    
+
+
+}
+
+
+
+@media (min-width : 992px) and (max-width : 1880px){
+
+    .aboutus{
+        width: 30%;
+    }
+
+
+
+}

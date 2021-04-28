@@ -16345,7 +16345,7 @@ span {
   display: flex;
   flex-direction: column;
   padding: 5%;
-  margin-top: 68%;
+  margin-top: 55.5%;
 }
 .section3 .meetourtxt {
   border: red 3px solid;
@@ -16608,7 +16608,6 @@ span {
 }
 .section7 .bg-tags .troiscol .aboutus {
   color: white;
-  width: 30%;
   border: red solid 3px;
   margin-top: 6%;
 }
@@ -16641,6 +16640,30 @@ span {
 .redf {
   background-color: #DA4E4E;
   height: 90px;
+}
+
+@media (min-width: 320px) and (max-width: 991px) {
+  .section7 .bg-tags {
+    border: pink solid 3px;
+    height: 950px;
+  }
+  .section7 .bg-tags .troiscol {
+    width: 300%;
+    flex-direction: column;
+    text-align: center;
+  }
+  .section7 .bg-tags .troiscol .aboutus {
+    width: 30%;
+  }
+  .section7 .bg-tags .troiscol .logosabout {
+    text-align: center;
+    margin-left: 25%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1880px) {
+  .aboutus {
+    width: 30%;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
