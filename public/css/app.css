@@ -16710,6 +16710,17 @@ span {
   margin: 0;
 }
 
+.col-3 .logotxtmenu {
+  border: green solid 3px;
+  text-align: center;
+  font-size: 50px;
+  font-family: courgette;
+  color: black;
+}
+.col-3 .logotxtmenu .boitelogotxt {
+  background-color: pink;
+}
+
 .firstcolmenu {
   border: blue solid 3px;
   display: flex;
