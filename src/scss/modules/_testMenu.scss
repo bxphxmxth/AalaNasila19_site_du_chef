@@ -1,0 +1,44 @@
+.col-9{
+    border: red 3px solid;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.firstcolmenu{
+    border: blue solid 3px;
+    display: flex;
+    flex-wrap: wrap;
+
+    .imgh4pprix{
+        display: flex;
+        width: 45%;
+        justify-content: space-between;
+
+        .logoradius2{
+            border: rgb(176, 176, 214) solid 3px;
+            border-radius: 80px;
+        }
+    }
+    
+}
+
+
+.secondcol2{
+
+    border: blue solid 3px;
+    display: flex;
+    flex-wrap: wrap;
+
+    .imgh4pprix{
+        display: flex;
+        width: 45%;
+        justify-content: space-between;
+
+        .logoradius2{
+            border: rgb(176, 176, 214) solid 3px;
+            border-radius: 80px;
+        }
+    }
+    
+}
