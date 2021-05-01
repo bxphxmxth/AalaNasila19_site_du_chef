@@ -16163,7 +16163,6 @@ span {
 }
 .container2 .bg-box-left-top {
   display: flex;
-  border: red 3px solid;
   width: 100%;
   justify-content: space-between;
   align-items: center;
@@ -16178,7 +16177,6 @@ span {
 }
 .container2 .bg-box-left-top .titreOurStory {
   position: relative;
-  border: green solid 3px;
   width: 50%;
   text-align: center;
   font-family: courgette;
@@ -16186,13 +16184,11 @@ span {
   margin-top: 2%;
 }
 .container2 .bottom2red {
-  border: grey solid 3px;
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
 .container2 .bottom2red .logolineee {
-  border: red solid 3px;
   width: 40%;
   height: 200%;
   margin-top: 5%;
@@ -16204,16 +16200,11 @@ span {
 }
 .white .txt_ourstory {
   text-align: center;
-  border: solid pink 3px;
   margin-top: 15%;
   margin-left: 20%;
   margin-right: 20%;
 }
-.white .ourMenu {
-  border: green solid 3px;
-}
 .white .ourMenu .titreOurMenu {
-  border: blue solid 3px;
   position: relative;
   width: 50%;
   text-align: center;
@@ -16229,14 +16220,11 @@ span {
   text-align: center;
   margin-top: 8%;
   margin-left: 26%;
-  border: tomato solid 3px;
 }
 .white .ourMenu .troiscol {
-  border: blue solid 3px;
   display: flex;
 }
 .white .ourMenu .troiscol .blsd {
-  border: red 3px solid;
   width: 20%;
   display: flex;
   flex-direction: column;
@@ -16245,6 +16233,7 @@ span {
 }
 .white .ourMenu .troiscol .blsd .boitelogotxt {
   border-bottom: solid gray 3px;
+  border-right: red 5px solid;
   width: 100%;
   padding: 10%;
   display: flex;
@@ -16265,7 +16254,6 @@ span {
   font-size: 30px;
 }
 .white .ourMenu .troiscol .firstcol {
-  border: solid blue 3px;
   width: 35%;
 }
 .white .ourMenu .troiscol .firstcol .imgh4pprix {
@@ -16281,7 +16269,6 @@ span {
   height: 25%;
 }
 .white .ourMenu .troiscol .firstcol .imgh4pprix .h4p {
-  border: green solid 3px;
   width: max-content;
 }
 .white .ourMenu .troiscol .firstcol .imgh4pprix .h4p h4 {
@@ -16296,7 +16283,6 @@ span {
   margin-top: 10%;
 }
 .white .ourMenu .secondcol {
-  border: solid purple 3px;
   width: 35%;
   margin-left: 3%;
 }
@@ -16313,7 +16299,6 @@ span {
   height: 25%;
 }
 .white .ourMenu .secondcol .imgh4pprix .h4p {
-  border: green solid 3px;
   width: max-content;
 }
 .white .ourMenu .secondcol .imgh4pprix .h4p h4 {
@@ -16339,7 +16324,6 @@ span {
   margin-top: 48%;
 }
 .section3 .meetandlogo {
-  border: blue solid 3px;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -16348,7 +16332,6 @@ span {
   margin-top: 55.5%;
 }
 .section3 .meetourtxt {
-  border: red 3px solid;
   color: white;
   font-family: courgette;
   font-size: 250%;
@@ -16358,7 +16341,6 @@ span {
   justify-content: space-around;
 }
 .section3 .chefs .chef1 {
-  border: red solid 3px;
   width: 20%;
 }
 .section3 .chefs .chef1 .loremipsum {
@@ -16398,17 +16380,14 @@ span {
 }
 .section4 .container .bgandform {
   position: relative;
-  border: red solid 3px;
 }
 .section4 .container .bgandform .forany {
   position: absolute;
   margin-left: 34%;
   margin-top: 8%;
-  border: red solid 3px;
   color: white;
 }
 .section4 .container .bgandform .bg-form {
-  border: green solid 3px;
   width: 50%;
   height: 10%;
   margin-left: 25%;
@@ -16431,17 +16410,14 @@ span {
   font-size: 15px;
 }
 .section4 .container .bgandform .twoinputs .form-row {
-  border: #bd1c8c 3px solid;
   width: 100%;
 }
 .section4 .container .bgandform .twoinputs .form-row .norm_drop {
   display: flex;
   justify-content: space-between;
-  border: blue solid 3px;
   width: 100%;
 }
 .section4 .container .Ourblog {
-  border: blue solid 3px;
   height: 100vh;
   width: 100%;
 }
@@ -16458,13 +16434,9 @@ span {
   margin-left: 26.5%;
 }
 .section4 .img2redpp {
-  border: #be19a3 solid 3px;
   display: flex;
   justify-content: space-between;
   margin-left: 5%;
-}
-.section4 .img2redpp .img_red_pp {
-  border: blue solid 3px;
 }
 .section4 .img2redpp .img_red_pp .imgfeta {
   border: #e4e4f8 solid 5px;
@@ -16483,16 +16455,13 @@ span {
 }
 .section4 .img2redpp .img_red_pp .red .pmt {
   margin-top: 2%;
-  border: blue solid 3px;
 }
 .section4 .img2redpp .img_red_pp .pp2 {
-  border: #b66aa3 solid 3px;
   margin-top: 3%;
   width: 90%;
   margin-left: 5%;
 }
 .section4 .img2redpp .img_red_pp .pp22 {
-  border: #b66aa3 solid 3px;
   margin-top: 3%;
   width: 90%;
 }
@@ -16530,7 +16499,6 @@ span {
   margin-left: 30%;
 }
 .section5 .meuftexttextmeuf {
-  border: blue solid 3px;
   display: flex;
   justify-content: space-around;
 }
@@ -16602,13 +16570,11 @@ span {
   background-size: cover;
 }
 .section7 .bg-tags .troiscol {
-  border: blue solid 3px;
   display: flex;
   justify-content: space-around;
 }
 .section7 .bg-tags .troiscol .aboutus {
   color: white;
-  border: red solid 3px;
   margin-top: 6%;
 }
 .section7 .bg-tags .troiscol .aboutus .h3aboutus {
@@ -16625,7 +16591,6 @@ span {
   border-radius: 15px;
 }
 .section7 .bg-tags .fourfoodbox {
-  border: white solid 3px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -16718,7 +16683,7 @@ span {
   color: black;
 }
 .col-3 .logotxtmenu .boitelogotxt {
-  background-color: pink;
+  background-color: pin;
 }
 
 .firstcolmenu {

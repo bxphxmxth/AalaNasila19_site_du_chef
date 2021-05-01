@@ -14,7 +14,6 @@
         
         .bg-box-left-top{
             display: flex;
-            border: red 3px solid;
             width: 100%;
             justify-content: space-between;
             align-items: center;
@@ -34,7 +33,6 @@
     
             .titreOurStory{
                 position: relative;
-                border: green solid 3px;
                 width: 50%;
                 text-align: center;
                 font-family: courgette;
@@ -47,16 +45,15 @@
             
         }
          .bottom2red{
-                border: grey solid 3px;
+                
                 width: 100%;
                 display: flex;
                 justify-content: space-between;
     
                 .logolineee{
-                    border: red solid 3px;
                     width: 40%;
                     height: 200%;
-                    margin-top: 5%;
+                    margin-top: 5%;  
                 }
             }
     
@@ -74,7 +71,7 @@
             .txt_ourstory{
                 
                 text-align: center;
-                border: solid pink 3px;
+                
                 margin-top: 15%;
                 margin-left: 20%;
                 margin-right: 20%;
@@ -85,11 +82,11 @@
     
         .ourMenu{
     
-            border: green solid 3px;
+            
             
     
              .titreOurMenu{
-                border: blue solid 3px;
+                
                 position: relative;
                 width: 50%;
                 text-align: center;
@@ -106,19 +103,18 @@
                     text-align: center;
                     margin-top: 8%;
                     margin-left: 26%;
-                    border: tomato solid 3px;
+                    
     
     
                 }
     
                 .troiscol{
     
-                    border: blue solid 3px;
+                    
                     display: flex;
     
     
                     .blsd{
-                        border: red 3px solid;
                         width: 20%;
                         display: flex;
                         flex-direction: column;
@@ -128,6 +124,7 @@
                         .boitelogotxt{
     
                             border-bottom: solid gray 3px;
+                            border-right: red 5px solid;
                             width: 100%;
                            padding: 10%;
                             display: flex;
@@ -159,7 +156,7 @@
                     }
     
                     .firstcol{
-                        border: solid blue 3px;
+                        
                         width: 35%;
     
                         .imgh4pprix{
@@ -178,7 +175,7 @@
                             }  
                             
                                 .h4p{
-                                    border: green solid 3px;
+                                 
                                     width: max-content;
     
                                     h4{
@@ -201,7 +198,7 @@
     
                     .secondcol{
     
-                        border: solid purple 3px;
+                        
                         width: 35%;
                         margin-left: 3%;
     
@@ -221,7 +218,7 @@
                             }  
                             
                                 .h4p{
-                                    border: green solid 3px;
+                                    
                                     width: max-content;
     
                                     h4{
