@@ -16676,16 +16676,14 @@ span {
 }
 
 .col-3 .logotxtmenu {
+  border: green solid 3px;
   text-align: center;
   font-size: 50px;
   font-family: courgette;
   color: black;
 }
 .col-3 .logotxtmenu .boitelogotxt {
-  background-color: pink;
-}
-.col-3 .logotxtmenu:hover {
-  border-right: red solid 10px;
+  background-color: pin;
 }
 
 .firstcolmenu {
@@ -16718,4 +16716,4 @@ span {
   border-radius: 80px;
 }
 
-/*# sourceMappingURL=app.css.map */
+/*# sourceMappingURL=app.csss.map */
