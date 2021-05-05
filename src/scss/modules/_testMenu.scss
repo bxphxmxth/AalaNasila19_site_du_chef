@@ -10,11 +10,15 @@
 
     .logotxtmenu{
 
-        // border: green solid 3px;
+        border-bottom: grey solid 2px;
         text-align: center;
         font-size: 50px;
         font-family: courgette;
         color: black;
+
+        i:hover{
+            color: red;
+        }
 
        
 
@@ -41,11 +45,28 @@
     border: blue solid 3px;
     display: flex;
     flex-wrap: wrap;
+    
 
     .imgh4pprix{
         display: flex;
         width: 45%;
         justify-content: space-between;
+
+        .h4p{
+            border: red 3px solid;
+            height: max-content;
+            width: max-content;
+            margin-left: 5%;
+        }
+
+        .prix{
+            margin-top: 15%;
+            margin-left: 5%;
+            margin-right: 5%;
+            background-color: rgb(198, 198, 233);
+            height: max-content;
+            color: red;
+        }
 
         .logoradius2{
             border: rgb(176, 176, 214) solid 3px;

@@ -16676,10 +16676,14 @@ span {
 }
 
 .col-3 .logotxtmenu {
+  border-bottom: grey solid 2px;
   text-align: center;
   font-size: 50px;
   font-family: courgette;
   color: black;
+}
+.col-3 .logotxtmenu i:hover {
+  color: red;
 }
 .col-3 .logotxtmenu .boitelogotxt {
   background-color: pink;
@@ -16697,6 +16701,20 @@ span {
   display: flex;
   width: 45%;
   justify-content: space-between;
+}
+.firstcolmenu .imgh4pprix .h4p {
+  border: red 3px solid;
+  height: max-content;
+  width: max-content;
+  margin-left: 5%;
+}
+.firstcolmenu .imgh4pprix .prix {
+  margin-top: 15%;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #c6c6e9;
+  height: max-content;
+  color: red;
 }
 .firstcolmenu .imgh4pprix .logoradius2 {
   border: #b0b0d6 solid 3px;
