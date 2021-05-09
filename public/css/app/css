@@ -16347,19 +16347,6 @@ span {
   font-family: Open Sans;
   text-align: center;
 }
-.section3 .chefs .chef1 .loremipsum::before {
-  content: " lorem";
-  position: absolute;
-  bottom: 0;
-  width: 0;
-  height: 0;
-  background-color: red;
-  transition: 2s;
-  z-index: -1;
-}
-.section3 .chefs .chef1 .loremipsum > h1:hover::before {
-  height: 100%;
-}
 .section3 .chefs .chef1 .border1 {
   border-bottom: grey 2px solid;
 }
@@ -16747,4 +16734,4 @@ span {
   border-radius: 80px;
 }
 
-/*# sourceMappingURL=app.css.map */
+/*# sourceMappingURL=css.map */
