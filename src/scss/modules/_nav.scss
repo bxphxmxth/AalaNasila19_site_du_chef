@@ -1,111 +1,124 @@
 body{
     font-family: Open Sans;
-}
-.bg-nav{
+
+    header{
+
+
+        .navs{
+            display: flex;
+            position: fixed;
+            width: 100%;
+            justify-content: space-between;
+            // border: green solid 3px;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.39);
+            color: white;
+            margin: 0;
+            padding: 0;
+            z-index: 1;
+            
+            .nav1{
+                display: flex;
+                justify-content: space-around;
+                border-top: white solid 2px;
+                border-bottom: white 2px solid;
+                width: 40%;
+                text-align: center;
+               
+            
+                .home:hover{
+                    background-color: red;
+                    width: 15%;
+                    height: 30px
+            
+                }
+            
+                .aboutus:hover{
+                    background-color: red;
+                    width: 20%;
+                    height: 30px
+            
+                }
+                .menulist:hover{
+                    background-color: red;
+                    width: 20%;
+                    height: 30px
+            
+                }
+                .team:hover{
+                    background-color: red;
+                    width: 15%;
+                    height: 30px
+            
+                }
+            
+            
+            }
+
+            .tastelogo{
     
- 
-}
-
-
-
-.navs{
-    display: flex;
-    position: fixed;
-    width: 100%;
-    justify-content: space-between;
-    // border: green solid 3px;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.39);
-    color: white;
-    margin: 0;
-    padding: 0;
+                width: max-content;
+            }
+            
+            
+            
+            .nav2{
+                display: flex;
+                justify-content: space-around;
+                border-top: white solid 2px;
+                border-bottom: white 2px solid;
+                width: 45%;
+                text-align: center;
+            
+            
+            
+                .reservation:hover{
+                    background-color: red;
+                    width: 25%;
+                    height: 30px
+            
+                }
+            
+                .blog:hover{
+                    background-color: red;
+                    width: 10%;
+                    height: 30px
+            
+                }
+                .testimonials:hover{
+                    background-color: red;
+                    width: 22%;
+                    height: 30px
+            
+                }
+                .contactus:hover{
+                    background-color: red;
+                    width: 20%;
+                    height: 30px
+            
+                }
+            
+            }
+            
+        
+        }
+        
     
-    
 
+    }
 }
 
-.nav1{
-    display: flex;
-    justify-content: space-around;
-    border-top: white solid 2px;
-    border-bottom: white 2px solid;
-    width: 40%;
-    text-align: center;
-   
 
-    .home:hover{
-        background-color: red;
-        width: 15%;
-        height: 30px
+.buttonCa{
 
-    }
+    border-radius: 50%;
+    height: 15px !important;
+    width: 15px !important;
 
-    .aboutus:hover{
-        background-color: red;
-        width: 20%;
-        height: 30px
-
-    }
-    .menulist:hover{
-        background-color: red;
-        width: 20%;
-        height: 30px
-
-    }
-    .team:hover{
-        background-color: red;
-        width: 15%;
-        height: 30px
-
-    }
-
-
-}
-
-.tastelogo{
-    
-    width: max-content;
 }
 
 
 
-.nav2{
-    display: flex;
-    justify-content: space-around;
-    border-top: white solid 2px;
-    border-bottom: white 2px solid;
-    width: 45%;
-    text-align: center;
-
-
-
-    .reservation:hover{
-        background-color: red;
-        width: 25%;
-        height: 30px
-
-    }
-
-    .blog:hover{
-        background-color: red;
-        width: 10%;
-        height: 30px
-
-    }
-    .testimonials:hover{
-        background-color: red;
-        width: 22%;
-        height: 30px
-
-    }
-    .contactus:hover{
-        background-color: red;
-        width: 20%;
-        height: 30px
-
-    }
-
-}
 
 .whateverandbutt{
 

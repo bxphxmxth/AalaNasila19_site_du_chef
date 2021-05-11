@@ -16049,8 +16049,7 @@ h3 {
 body {
   font-family: Open Sans;
 }
-
-.navs {
+body header .navs {
   display: flex;
   position: fixed;
   width: 100%;
@@ -16060,9 +16059,9 @@ body {
   color: white;
   margin: 0;
   padding: 0;
+  z-index: 1;
 }
-
-.nav1 {
+body header .navs .nav1 {
   display: flex;
   justify-content: space-around;
   border-top: white solid 2px;
@@ -16070,32 +16069,30 @@ body {
   width: 40%;
   text-align: center;
 }
-.nav1 .home:hover {
+body header .navs .nav1 .home:hover {
   background-color: red;
   width: 15%;
   height: 30px;
 }
-.nav1 .aboutus:hover {
+body header .navs .nav1 .aboutus:hover {
   background-color: red;
   width: 20%;
   height: 30px;
 }
-.nav1 .menulist:hover {
+body header .navs .nav1 .menulist:hover {
   background-color: red;
   width: 20%;
   height: 30px;
 }
-.nav1 .team:hover {
+body header .navs .nav1 .team:hover {
   background-color: red;
   width: 15%;
   height: 30px;
 }
-
-.tastelogo {
+body header .navs .tastelogo {
   width: max-content;
 }
-
-.nav2 {
+body header .navs .nav2 {
   display: flex;
   justify-content: space-around;
   border-top: white solid 2px;
@@ -16103,25 +16100,31 @@ body {
   width: 45%;
   text-align: center;
 }
-.nav2 .reservation:hover {
+body header .navs .nav2 .reservation:hover {
   background-color: red;
   width: 25%;
   height: 30px;
 }
-.nav2 .blog:hover {
+body header .navs .nav2 .blog:hover {
   background-color: red;
   width: 10%;
   height: 30px;
 }
-.nav2 .testimonials:hover {
+body header .navs .nav2 .testimonials:hover {
   background-color: red;
   width: 22%;
   height: 30px;
 }
-.nav2 .contactus:hover {
+body header .navs .nav2 .contactus:hover {
   background-color: red;
   width: 20%;
   height: 30px;
+}
+
+.buttonCa {
+  border-radius: 50%;
+  height: 15px !important;
+  width: 15px !important;
 }
 
 .whateverandbutt {
@@ -16357,7 +16360,7 @@ span {
   transition: 2s;
   z-index: -1;
 }
-.section3 .chefs .chef1 .loremipsum > h1:hover::before {
+.section3 .chefs .chef1 .loremipsum:hover::before {
   height: 100%;
 }
 .section3 .chefs .chef1 .border1 {
@@ -16681,7 +16684,6 @@ span {
   }
 }
 .col-9 {
-  border: red 3px solid;
   display: flex;
   padding: 0;
   margin: 0;
@@ -16705,7 +16707,6 @@ span {
 }
 
 .firstcolmenu {
-  border: black solid 6px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -16733,7 +16734,6 @@ span {
 }
 
 .secondcol2 {
-  border: blue solid 3px;
   display: flex;
   flex-wrap: wrap;
 }
