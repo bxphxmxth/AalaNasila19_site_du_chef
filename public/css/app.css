@@ -16127,6 +16127,11 @@ body header .navs .nav2 .contactus:hover {
   width: 15px !important;
 }
 
+.imgdeco {
+  z-index: 4;
+  height: 15px;
+}
+
 .whateverandbutt {
   height: 200%;
   text-align: center;
@@ -16333,7 +16338,7 @@ span {
   flex-direction: column;
   padding: 5%;
 }
-.section3 .meetourtxt {
+.section3 .meetandlogo .meetourtxt {
   color: white;
   font-family: courgette;
   font-size: 250%;
@@ -16345,23 +16350,17 @@ span {
 .section3 .chefs .chef1 {
   width: 20%;
 }
-.section3 .chefs .chef1 .loremipsum {
-  color: white;
-  font-family: Open Sans;
-  text-align: center;
+.section3 .chefs .chef1 .chef1img {
+  position: relative;
+  max-width: max-content;
+  max-height: max-content;
 }
-.section3 .chefs .chef1 .loremipsum::before {
-  content: " lorem";
-  position: absolute;
-  bottom: 0;
-  width: 0;
-  height: 0;
+.section3 .chefs .chef1 .chef1img:hover {
+  border: red 3px solid;
+  height: 80px;
   background-color: red;
-  transition: 2s;
-  z-index: -1;
-}
-.section3 .chefs .chef1 .loremipsum:hover::before {
-  height: 100%;
+  transition: ease-in;
+  transition-duration: 1s;
 }
 .section3 .chefs .chef1 .border1 {
   border-bottom: grey 2px solid;
@@ -16576,6 +16575,10 @@ span {
 .section7 {
   background-color: white;
   margin-top: 5%;
+}
+.section7 .imgdeco2 {
+  height: 15px;
+  z-index: 4;
 }
 .section7 .bg-tags {
   background-image: url("../../../public/images/footer_background.jpg");

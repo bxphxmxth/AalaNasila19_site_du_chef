@@ -10,14 +10,18 @@
         flex-direction: column;
         padding: 5%;
       
-    }
 
-    .meetourtxt{
+        .meetourtxt{
         color: white;
         font-family: courgette;
         font-size: 250%;
+        }
+
     }
 
+
+
+    
 
     .chefs{
         display: flex;
@@ -27,28 +31,66 @@
         .chef1{
            
             width: 20%;
-            
 
-            .loremipsum{
-                color: white;
-                font-family: Open Sans;
-                text-align: center;
+            .chef1img{
+
+
+               position: relative;
+               max-width: max-content;
+               max-height: max-content; 
+
+               
+
+
             }
 
-            .loremipsum::before{
-                content: " lorem";
-                position: absolute;
-                bottom: 0;
-                width: 0;
-                height: 0;
+            .chef1img:hover{
+                border: red 3px solid;
+                height: 80px;
                 background-color: red;
-                transition: 2s;
-                z-index: -1;
+                transition: ease-in;
+                transition-duration: 1s;
             }
+            
+            // .chef1img::before{
+            //        content: "";
+            //        position: absolute;
+            //        bottom: 0px;
+            //        width: 100%;
+            //        height: 0%;
+            //        background-color: red;
+            //        transition: 2s;
+            //        z-index: 4;
+                   
+            // }
 
-            .loremipsum:hover::before{
-                height: 100%;
-            }
+            // .chef1img:hover::before{
+            //        height: 50%;
+            //        content: "Lorem ipsum";
+            // }
+
+
+
+            // .loremipsum{
+            //     color: white;
+            //     font-family: Open Sans;
+            //     text-align: center;
+            // }
+
+            // .loremipsum::before{
+            //     content: " lorem";
+            //     position: absolute;
+            //     bottom: 0;
+            //     width: 0;
+            //     height: 0;
+            //     background-color: red;
+            //     transition: 2s;
+            //     z-index: -1;
+            // }
+
+            // .loremipsum:hover::before{
+            //     height: 100%;
+            // }
 
 
 
