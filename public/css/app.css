@@ -16354,6 +16354,12 @@ span {
   width: 300px;
   position: relative;
 }
+.section3 .chefs .chef1 .divtransparente {
+  background-color: blue;
+  height: 20%;
+  width: 100%;
+  z-index: 4;
+}
 .section3 .chefs .chef1::before {
   content: "";
   position: absolute;
@@ -16369,10 +16375,16 @@ span {
 .section3 .chefs .loremConthrlogo {
   position: absolute;
   bottom: 0;
-  margin-left: 20%;
+  margin-left: 0%;
+  width: 78%;
+  text-align: center;
+  color: transparent;
 }
 .section3 .chefs .loremConthrlogo .loremnomarg {
   margin: 0;
+}
+.section3 .chefs .loremConthrlogo:hover {
+  background-color: transparent;
   color: white;
 }
 
