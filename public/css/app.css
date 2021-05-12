@@ -16366,11 +16366,11 @@ span {
   bottom: 0;
   width: 80%;
   height: 0%;
-  background-color: red;
+  background-color: #eb4f4f;
   transition: 2s;
 }
 .section3 .chefs .chef1:hover::before {
-  height: 30%;
+  height: 25%;
 }
 .section3 .chefs .loremConthrlogo {
   position: absolute;

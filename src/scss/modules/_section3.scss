@@ -56,13 +56,13 @@
             bottom: 0;
             width: 80%;
             height: 0%;
-            background-color: red;
+            background-color: rgb(235, 79, 79);
             transition: 2s;
 
         }
 
         .chef1:hover::before{
-            height: 30%;
+            height: 25%;
         }
 
 
