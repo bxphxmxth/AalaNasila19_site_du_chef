@@ -16211,7 +16211,6 @@ span {
 @media (min-width: 1008px) and (max-width: 1010px) {
   .navs {
     display: flex;
-    border: solid red;
     width: 90%;
   }
   .navs .nav1 {
@@ -16227,6 +16226,10 @@ span {
     display: flex;
     border-top: white solid 1px;
     border-bottom: white 0.5px solid;
+  }
+
+  .whatever {
+    font-size: 50px;
   }
 }
 .bg-ourstory {
@@ -16460,6 +16463,24 @@ span {
   display: none;
 }
 
+@media (min-width: 640px) and (max-width: 1007px) {
+  .bg-ourstory .container2 .ourStorybox .bg-box-left-top {
+    width: 80%;
+  }
+  .bg-ourstory .container2 .ourStorybox .bg-box-left-top .titreOurStory {
+    font-size: 50px;
+  }
+  .bg-ourstory .container2 .ourStorybox .bg-box-left-top .decoline {
+    margin-top: 60%;
+    margin-left: 33%;
+  }
+  .bg-ourstory .container2 .ourStorybox .bg-box-left-top .border2 {
+    margin-left: 30%;
+  }
+  .bg-ourstory .container2 .txt_ourstory {
+    font-size: 20px;
+  }
+}
 .section3 {
   background-color: black;
   height: 700px;

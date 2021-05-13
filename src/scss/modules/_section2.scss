@@ -374,11 +374,53 @@
         
         
         
-        // @media (min-width : 760px) and (max-width : 1240px){
-        
-            
-        
-        
-        
-        
-        // }   
+        @media (min-width : 640px) and (max-width : 1007px){
+
+
+            .bg-ourstory{
+
+                .container2{
+
+                    .ourStorybox{
+
+                        .bg-box-left-top{
+
+                            width: 80%;
+
+                            .titreOurStory{
+                                font-size: 50px;
+                                
+                            }
+                            .decoline{
+                                margin-top: 60%;
+                                margin-left: 33%;
+                            }
+
+                            .border2 {
+                                margin-left: 30%;
+
+                            }
+                        }
+                    }
+
+                    .txt_ourstory{
+                        font-size: 20px;
+                    }
+                }
+
+
+            }
+
+
+        }
+
+
+
+
+
+
+        @media (min-width : 1008px) and (max-width : 1010px){
+
+
+
+        }

@@ -259,7 +259,6 @@ span{
 
         .navs{
             display: flex;
-            border: solid red;
             width: 90%;
             
         
@@ -287,7 +286,13 @@ span{
         
             
         
-          }
+     }
+
+     .whatever{
+         font-size: 50px;
+     }
+
+
  }
 
 
