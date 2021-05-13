@@ -16052,7 +16052,6 @@ body {
 body header .navs {
   display: flex;
   position: fixed;
-  width: 100%;
   justify-content: space-between;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.39);
@@ -16066,7 +16065,6 @@ body header .navs .nav1 {
   justify-content: space-around;
   border-top: white solid 2px;
   border-bottom: white 2px solid;
-  width: 40%;
   text-align: center;
 }
 body header .navs .nav1 .home:hover {
@@ -16097,7 +16095,6 @@ body header .navs .nav2 {
   justify-content: space-around;
   border-top: white solid 2px;
   border-bottom: white 2px solid;
-  width: 45%;
   text-align: center;
 }
 body header .navs .nav2 .reservation:hover {
@@ -16160,6 +16157,30 @@ span {
   color: red;
 }
 
+@media (min-width: 320px) and (max-width: 759px) {
+  .navs {
+    border: green solid 3px;
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+  }
+  .navs .nav1 {
+    border: red solid 3px;
+    width: 85%;
+    justify-content: space-between;
+  }
+  .navs .tastelogo {
+    display: none;
+  }
+  .navs .nav2 {
+    border: red solid 3px;
+    width: 85%;
+    justify-content: space-between;
+    font-size: smaller;
+    display: flex;
+    flex-direction: column;
+  }
+}
 .bg-ourstory {
   background-image: url("../../../public/images/main_bg.jpg");
 }
