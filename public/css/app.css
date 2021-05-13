@@ -16480,6 +16480,16 @@ span {
   .bg-ourstory .container2 .txt_ourstory {
     font-size: 20px;
   }
+  .bg-ourstory .container2 .ourMenu .titreOurMenu {
+    font-size: 40px;
+  }
+  .bg-ourstory .container2 .ourMenu .firstcolmenu {
+    margin-left: 20%;
+    width: 100%;
+  }
+  .bg-ourstory .container2 .ourMenu .bottom2red {
+    width: 100%;
+  }
 }
 .section3 {
   background-color: black;
