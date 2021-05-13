@@ -16063,8 +16063,6 @@ body header .navs {
 body header .navs .nav1 {
   display: flex;
   justify-content: space-around;
-  border-top: white solid 2px;
-  border-bottom: white 2px solid;
   text-align: center;
 }
 body header .navs .nav1 .home:hover {
@@ -16093,8 +16091,6 @@ body header .navs .tastelogo {
 body header .navs .nav2 {
   display: flex;
   justify-content: space-around;
-  border-top: white solid 2px;
-  border-bottom: white 2px solid;
   text-align: center;
 }
 body header .navs .nav2 .reservation:hover {
@@ -16159,26 +16155,27 @@ span {
 
 @media (min-width: 320px) and (max-width: 759px) {
   .navs {
-    border: green solid 3px;
     display: flex;
     flex-direction: column;
     width: 33%;
   }
   .navs .nav1 {
-    border: red solid 3px;
     width: 85%;
     justify-content: space-between;
+    border-top: white solid 1px;
+    border-bottom: white 1px solid;
   }
   .navs .tastelogo {
     display: none;
   }
   .navs .nav2 {
-    border: red solid 3px;
     width: 85%;
     justify-content: space-between;
     font-size: smaller;
     display: flex;
     flex-direction: column;
+    border-top: white solid 1px;
+    border-bottom: white 0.5px solid;
   }
 }
 .bg-ourstory {
@@ -16192,7 +16189,6 @@ span {
 }
 .container2 .bg-box-left-top {
   display: flex;
-  width: 100%;
   justify-content: space-between;
   align-items: center;
 }
@@ -16343,8 +16339,18 @@ span {
 }
 
 @media (min-width: 320px) and (max-width: 759px) {
-  .txt_ourstory {
-    font-size: 5px;
+  .bg-box-left-top {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .bg-box-left-top .resizeborderred {
+    width: 150%;
+    height: 80px;
+  }
+  .bg-box-left-top .border2 {
+    margin-left: 110%;
   }
 }
 .section3 {
