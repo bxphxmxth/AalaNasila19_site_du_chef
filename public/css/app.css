@@ -16367,7 +16367,7 @@ span {
   width: 80%;
   height: 0%;
   background-color: #eb4f4f;
-  transition: 2s;
+  transition: 0.5s;
 }
 .section3 .chefs .chef1:hover::before {
   height: 25%;
