@@ -16202,11 +16202,8 @@ span {
 }
 .container2 .bg-box-left-top .titreOurStory {
   position: relative;
-  width: 50%;
   text-align: center;
   font-family: courgette;
-  font-size: 350%;
-  margin-top: 2%;
 }
 .container2 .bottom2red {
   width: 100%;
@@ -16231,12 +16228,8 @@ span {
 }
 .white .ourMenu .titreOurMenu {
   position: relative;
-  width: 50%;
   text-align: center;
   font-family: courgette;
-  font-size: 300%;
-  margin-top: 2%;
-  margin-left: 25%;
 }
 .white .ourMenu .decoline2 {
   position: absolute;
@@ -16350,9 +16343,59 @@ span {
     height: 80px;
   }
   .bg-box-left-top .border2 {
-    margin-left: 110%;
+    margin-left: 30%;
+  }
+  .bg-box-left-top .titreOurStory {
+    font-size: 200%;
+    margin-top: 40%;
+    margin-left: 40%;
+  }
+
+  .txt_ourstory {
+    font-size: smaller;
+  }
+
+  .txt_ourstory2 {
+    display: none;
   }
 }
+.titreOurMenu {
+  font-size: 200%;
+  margin-top: 10%;
+}
+
+.row {
+  height: 450px;
+}
+.row .col-3 .logotxtmenu {
+  width: 20%;
+}
+.row .col-3 .logotxtmenu i {
+  font-size: 60%;
+  border-right: red solid 3px;
+  padding: 5px;
+}
+.row .col-3 .logotxtmenu .courgette {
+  display: none;
+}
+.row .col-9 .firstcolmenu {
+  border: green solid 3px;
+  display: flex;
+  flex-direction: column;
+}
+.row .col-9 .firstcolmenu .imgh4pprix {
+  border: red 3px solid;
+  width: 17%;
+  height: 80px;
+}
+.row .col-9 .firstcolmenu .imgh4pprix .logoradius2 {
+  border: green solid 3px;
+  height: 80px;
+}
+.row .col-9 .secondcol2 {
+  display: none;
+}
+
 .section3 {
   background-color: black;
   height: 700px;
