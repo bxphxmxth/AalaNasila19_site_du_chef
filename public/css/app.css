@@ -16063,6 +16063,8 @@ body header .navs {
 body header .navs .nav1 {
   display: flex;
   justify-content: space-around;
+  border-top: white solid 2px;
+  border-bottom: white 2px solid;
   text-align: center;
 }
 body header .navs .nav1 .home:hover {
@@ -16091,7 +16093,10 @@ body header .navs .tastelogo {
 body header .navs .nav2 {
   display: flex;
   justify-content: space-around;
+  border-top: white solid 2px;
+  border-bottom: white 2px solid;
   text-align: center;
+  width: 40%;
 }
 body header .navs .nav2 .reservation:hover {
   background-color: red;
@@ -16153,11 +16158,36 @@ span {
   color: red;
 }
 
-@media (min-width: 320px) and (max-width: 759px) {
+@media (min-width: 320px) and (max-width: 639px) {
   .navs {
     display: flex;
     flex-direction: column;
-    width: 33%;
+    width: 35%;
+  }
+  .navs .nav1 {
+    width: 90%;
+    justify-content: space-between;
+    border-top: white solid 1px;
+    border-bottom: white 1px solid;
+  }
+  .navs .tastelogo {
+    display: none;
+  }
+  .navs .nav2 {
+    width: 85%;
+    justify-content: space-between;
+    font-size: smaller;
+    display: flex;
+    flex-direction: column;
+    border-top: white solid 1px;
+    border-bottom: white 0.5px solid;
+  }
+}
+@media (min-width: 640px) and (max-width: 1007px) {
+  .navs {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
   }
   .navs .nav1 {
     width: 85%;
@@ -16174,6 +16204,27 @@ span {
     font-size: smaller;
     display: flex;
     flex-direction: column;
+    border-top: white solid 1px;
+    border-bottom: white 0.5px solid;
+  }
+}
+@media (min-width: 1008px) and (max-width: 1010px) {
+  .navs {
+    display: flex;
+    border: solid red;
+    width: 90%;
+  }
+  .navs .nav1 {
+    width: 40%;
+    justify-content: space-between;
+    border-top: white solid 1px;
+    border-bottom: white 1px solid;
+  }
+  .navs .nav2 {
+    width: 30%;
+    justify-content: space-between;
+    font-size: smaller;
+    display: flex;
     border-top: white solid 1px;
     border-bottom: white 0.5px solid;
   }
@@ -16706,6 +16757,12 @@ span {
     width: 20%;
   }
   .section5 .container .meuftexttextmeuf .txttestimo {
+    color: white;
+    border-radius: 5px;
+    width: 35%;
+    height: 50%;
+  }
+  .section5 .container .meuftexttextmeuf .txttestimo {
     height: 20px;
   }
 }
@@ -16745,7 +16802,6 @@ span {
   }
 
   .redsquare {
-    border: green solid 3px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -16814,7 +16870,6 @@ span {
 
 @media (min-width: 320px) and (max-width: 515px) {
   .section7 .bg-tags {
-    border: pink solid 3px;
     height: 950px;
   }
   .section7 .bg-tags .troiscol {
