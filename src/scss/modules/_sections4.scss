@@ -10,7 +10,7 @@
 
         .greytitlegrey{
             display: flex;
-            width: 100%;
+            // width: 100%;
             justify-content: space-between;
 
             .book_logo{
@@ -58,9 +58,9 @@
             display: flex;
             justify-content: space-between;
             position: absolute;
-            width: 100%;
-            margin-top: 12%;
-            margin-left: 32%;
+            // width: 100%;
+            // margin-top: 12%;
+            // margin-left: 32%;
 
 
             .booknow{
@@ -103,7 +103,7 @@
 
             .decor2{
                 position: absolute;
-                margin-left: 26.5%;
+                // margin-left: 26.5%;
                
 
             }
@@ -136,18 +136,18 @@
             }
 
             .red{
-                background-color: rgb(218, 78, 78);
-                color: white;
-                position: absolute;
-                height: 5%;
-                width: 30%;
-                text-align: center;
-                border-radius: 10px;
-                margin-left: 4%;
-                margin-top: 20%;
+                // background-color: rgb(218, 78, 78);
+                // color: white;
+                // position: absolute;
+                // height: 5%;
+                // width: 30%;
+                // text-align: center;
+                // border-radius: 10px;
+                // margin-left: 4%;
+                // margin-top: 20%;
 
                 .pmt{
-                    margin-top: 2%;
+                    // margin-top: 2%;
                 }
             }
 
@@ -179,7 +179,7 @@
         display: flex;
         justify-content: space-between;
         width: 89%;
-        margin-left: 5.5%;
+        // margin-left: 5.5%;
 
     }
 }
@@ -187,7 +187,124 @@
 
 @media (min-width : 320px) and (max-width : 1880px){
 
+.section4 {
+    height: 1100px;
+    margin-top: 70%;
 
+
+    .container{
+
+        .greytitlegrey{
+            width: 100%;
+
+            .changesize2{
+                width: 30%;
+                height: 80px;
+                display: none;
+
+            }
+
+        }
+
+        .book_logo{
+
+            .bookyourtable{
+                font-size: 30px;
+                margin-top: 10%;
+                width: max-content;
+                margin-left: 3%;
+            }
+            .decor{
+                width: 80%;
+                height: 20px;
+            }
+
+
+        }
+
+        .bgandform{
+            height: 300px;
+
+            .twoinputs{
+                
+                .form-row{
+
+                }
+
+                
+
+            }
+
+            .bg-form{
+                display: none;
+            }
+        }
+
+        .Ourblog{
+            
+            .ourblogtitle{
+                font-size: 30px;
+            }
+            .decor2{
+                width: 75%;
+
+            }
+
+        }
+    }
+
+    .container4{
+        
+
+
+        .img2redpp{
+            display: flex;
+            flex-direction: column;
+
+            .img_red_pp{
+                
+
+                .red{
+                    background-color: rgb(218, 78, 78);
+                    color: white;
+                    position: absolute;
+                    height: 6%;
+                    width: 100%;
+                    text-align: center;
+                    border-radius: 10px;
+                    margin-left: 0%;
+                    margin-top: 40%;
+
+                    .pmt{
+                        
+                    }
+                }
+
+                .imgfeta{
+                    width: 200px;
+                    height: 150px;
+                    margin-left: 15%;
+                }
+            }
+
+        }
+
+        .button{
+
+        }
+
+        .twogreybottom{
+            width: 100%;
+            .resiize{
+                width: 80px;
+                
+            }
+            
+        }
+
+
+    }
+}
   
     
 

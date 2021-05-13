@@ -16494,7 +16494,6 @@ span {
 }
 .section4 .container .greytitlegrey {
   display: flex;
-  width: 100%;
   justify-content: space-between;
 }
 .section4 .container .greytitlegrey .book_logo {
@@ -16525,9 +16524,6 @@ span {
   display: flex;
   justify-content: space-between;
   position: absolute;
-  width: 100%;
-  margin-top: 12%;
-  margin-left: 32%;
 }
 .section4 .container .bgandform .twoinputs .booknow {
   position: absolute;
@@ -16558,7 +16554,6 @@ span {
 }
 .section4 .container .Ourblog .decor2 {
   position: absolute;
-  margin-left: 26.5%;
 }
 .section4 .img2redpp {
   display: flex;
@@ -16568,20 +16563,6 @@ span {
 .section4 .img2redpp .img_red_pp .imgfeta {
   border: #e4e4f8 solid 5px;
   border-radius: 20px;
-}
-.section4 .img2redpp .img_red_pp .red {
-  background-color: #da4e4e;
-  color: white;
-  position: absolute;
-  height: 5%;
-  width: 30%;
-  text-align: center;
-  border-radius: 10px;
-  margin-left: 4%;
-  margin-top: 20%;
-}
-.section4 .img2redpp .img_red_pp .red .pmt {
-  margin-top: 2%;
 }
 .section4 .img2redpp .img_red_pp .pp2 {
   margin-top: 3%;
@@ -16601,9 +16582,70 @@ span {
   display: flex;
   justify-content: space-between;
   width: 89%;
-  margin-left: 5.5%;
 }
 
+@media (min-width: 320px) and (max-width: 1880px) {
+  .section4 {
+    height: 1100px;
+    margin-top: 70%;
+  }
+  .section4 .container .greytitlegrey {
+    width: 100%;
+  }
+  .section4 .container .greytitlegrey .changesize2 {
+    width: 30%;
+    height: 80px;
+    display: none;
+  }
+  .section4 .container .book_logo .bookyourtable {
+    font-size: 30px;
+    margin-top: 10%;
+    width: max-content;
+    margin-left: 3%;
+  }
+  .section4 .container .book_logo .decor {
+    width: 80%;
+    height: 20px;
+  }
+  .section4 .container .bgandform {
+    height: 300px;
+  }
+  .section4 .container .bgandform .bg-form {
+    display: none;
+  }
+  .section4 .container .Ourblog .ourblogtitle {
+    font-size: 30px;
+  }
+  .section4 .container .Ourblog .decor2 {
+    width: 75%;
+  }
+  .section4 .container4 .img2redpp {
+    display: flex;
+    flex-direction: column;
+  }
+  .section4 .container4 .img2redpp .img_red_pp .red {
+    background-color: #da4e4e;
+    color: white;
+    position: absolute;
+    height: 6%;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 0%;
+    margin-top: 40%;
+  }
+  .section4 .container4 .img2redpp .img_red_pp .imgfeta {
+    width: 200px;
+    height: 150px;
+    margin-left: 15%;
+  }
+  .section4 .container4 .twogreybottom {
+    width: 100%;
+  }
+  .section4 .container4 .twogreybottom .resiize {
+    width: 80px;
+  }
+}
 .section5 {
   background-image: url("../../../public/images/testimonials_background.jpg");
   height: 400px;
