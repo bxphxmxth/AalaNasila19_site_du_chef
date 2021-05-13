@@ -16685,6 +16685,30 @@ span {
   width: 35%;
 }
 
+@media (min-width: 320px) and (max-width: 1880px) {
+  .section5 {
+    height: 450px;
+  }
+  .section5 .testandlogo .meetourtxt {
+    font-size: 30px;
+  }
+  .section5 .logosection5 {
+    width: 50%;
+  }
+  .section5 .container {
+    margin-top: 5%;
+  }
+  .section5 .container .meuftexttextmeuf {
+    display: flex;
+    justify-content: space-around;
+  }
+  .section5 .container .meuftexttextmeuf .meuf {
+    width: 20%;
+  }
+  .section5 .container .meuftexttextmeuf .txttestimo {
+    height: 20px;
+  }
+}
 .ourcontact {
   margin-top: 5%;
   margin-left: 40%;

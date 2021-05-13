@@ -50,3 +50,45 @@
     }        
 
 }
+
+@media (min-width : 320px) and (max-width : 1880px){
+
+    .section5{
+
+        height: 450px;
+        .testandlogo{
+            .meetourtxt{
+                font-size: 30px;
+            }
+
+        }
+
+        .logosection5{
+            width: 50%;
+
+        }
+
+        .container{
+            margin-top: 5%;
+
+            .meuftexttextmeuf{
+                display: flex;
+                justify-content: space-around;
+                
+
+                .meuf{
+                    width: 20%;
+                }
+
+                .txttestimo{
+                    height: 20px;
+                }
+
+            }
+
+        }
+    }
+
+
+
+}
