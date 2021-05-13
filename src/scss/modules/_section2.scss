@@ -46,7 +46,7 @@
         }
          .bottom2red{
                 
-                width: 100%;
+                // width: 100%;
                 display: flex;
                 justify-content: space-between;
     
@@ -282,7 +282,18 @@
             margin-top: 10%;
 
             
+
+            
         }
+
+        .bottom2red{
+            width: 113%;
+
+            .changesize{
+                height: 80px;
+            }
+        }
+
 
         .row{
             height: 450px;
@@ -317,29 +328,46 @@
 
 
                 .firstcolmenu{
-                    border: green solid 3px;
                     display: flex;
                     flex-direction: column;
                     
                     .imgh4pprix{
-                        border: red 3px solid;
                         width: 17%;
                         height: 80px;
                         
 
                         .logoradius2{
-                            border: green solid 3px;
                             height: 80px;
 
                         }
+
+                        .deer{
+                            font-size: smaller;
+                            width: 200%;
+
+                        }
+
+                        .loremnone{
+                            display: none;
+
+                        }
+
+                        .prix{
+                            margin-left: 130%;
+                        }
+                        
                     }
 
                 }
 
                 .secondcol2{
                     display: none;
+                    
                 }
             }
+
+         
+            
 
         }
 

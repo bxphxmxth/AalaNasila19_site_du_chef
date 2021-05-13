@@ -16206,7 +16206,6 @@ span {
   font-family: courgette;
 }
 .container2 .bottom2red {
-  width: 100%;
   display: flex;
   justify-content: space-between;
 }
@@ -16364,6 +16363,13 @@ span {
   margin-top: 10%;
 }
 
+.bottom2red {
+  width: 113%;
+}
+.bottom2red .changesize {
+  height: 80px;
+}
+
 .row {
   height: 450px;
 }
@@ -16379,18 +16385,25 @@ span {
   display: none;
 }
 .row .col-9 .firstcolmenu {
-  border: green solid 3px;
   display: flex;
   flex-direction: column;
 }
 .row .col-9 .firstcolmenu .imgh4pprix {
-  border: red 3px solid;
   width: 17%;
   height: 80px;
 }
 .row .col-9 .firstcolmenu .imgh4pprix .logoradius2 {
-  border: green solid 3px;
   height: 80px;
+}
+.row .col-9 .firstcolmenu .imgh4pprix .deer {
+  font-size: smaller;
+  width: 200%;
+}
+.row .col-9 .firstcolmenu .imgh4pprix .loremnone {
+  display: none;
+}
+.row .col-9 .firstcolmenu .imgh4pprix .prix {
+  margin-left: 130%;
 }
 .row .col-9 .secondcol2 {
   display: none;
