@@ -16471,6 +16471,18 @@ span {
   color: white;
 }
 
+@media (min-width: 320px) and (max-width: 759px) {
+  .section3 .meetandlogo .meetourtxt {
+    font-size: 200%;
+  }
+  .section3 .chefs {
+    flex-direction: column;
+  }
+  .section3 .chefs .chef1 .sizechef {
+    height: 200px;
+    margin-left: 30%;
+  }
+}
 .section4 {
   background-image: url("../../../public/images/main_bg.jpg");
   height: 100vh;

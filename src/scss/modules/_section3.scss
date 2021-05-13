@@ -91,3 +91,34 @@
         
     }
 }
+
+@media (min-width : 320px) and (max-width: 759px) {
+
+    .section3{
+
+        .meetandlogo{
+
+            .meetourtxt{
+                font-size: 200%;
+            }
+
+            
+        }
+
+        .chefs{
+            
+            flex-direction: column;
+
+            .chef1{
+
+
+                .sizechef{
+                    height: 200px;
+                    margin-left: 30%;
+                }
+            }
+        }
+    }
+
+
+}
